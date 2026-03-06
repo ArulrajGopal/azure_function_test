@@ -9,6 +9,7 @@ def hello(req: func.HttpRequest) -> func.HttpResponse:
 
     print("hello")
     return func.HttpResponse("Hello Arulraj, I am function app!")
+    
 
 
 
